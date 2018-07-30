@@ -10,5 +10,6 @@ class jscHelper {
 
 };
 
+int exeJs();
 
 #endif //JNI_JSCHELPER_H
