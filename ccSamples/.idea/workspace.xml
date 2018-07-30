@@ -13,38 +13,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a08f00e-b3d0-406d-b3cd-161b4e3648e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.idea/libraries/KotlinJavaScript.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/.idea/libraries/KotlinJavaScript.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/ktjs/ktjs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/ktjs/ktjs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/ktjs/src/jsm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/ktjs/src/jsm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/ktjs/src/jsmain.js" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/ktjs/src/jsmain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/lib/kotlin-stdlib-js-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/lib/kotlin-stdlib-js-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/lib/kotlin-stdlib-js.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/lib/kotlin-stdlib-js.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/java/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/java/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/java/Hello.h" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/java/Hello.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/java/META-INF/java.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/java/META-INF/java.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/java/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/java/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/jsmain.js" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/ktjs/jsmain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/ktjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/ktjs/ktjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/ktjs.meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/ktjs/ktjs.meta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/ktjs/root-package.kjsm" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/ktjs/ktjs/root-package.kjsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/lib/kotlin.js" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/ktjs/lib/kotlin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/lib/kotlin.meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/out/production/ktjs/lib/kotlin.meta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt-samples/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsc-helper/jscHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/jsc-helper/jscHelper.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/main.cc" afterDir="false" />
-    </list>
+    <list default="true" id="7a08f00e-b3d0-406d-b3cd-161b4e3648e9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,21 +117,21 @@
           <entry key="cbp" value="1" />
           <entry key="cc" value="3" />
           <entry key="cmake" value="4" />
-          <entry key="cpp" value="4" />
-          <entry key="h" value="4" />
+          <entry key="cpp" value="7" />
+          <entry key="h" value="5" />
           <entry key="includecache" value="1" />
           <entry key="internal" value="1" />
           <entry key="make" value="2" />
           <entry key="marks" value="1" />
           <entry key="o" value="1" />
-          <entry key="txt" value="13" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="1" />
-          <entry key="CMakeLists.txt" value="12" />
-          <entry key="ObjectiveC" value="11" />
+          <entry key="CMakeLists.txt" value="13" />
+          <entry key="ObjectiveC" value="15" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -171,12 +140,12 @@
           <entry key="cc" value="2" />
           <entry key="cpp" value="3" />
           <entry key="h" value="1" />
-          <entry key="txt" value="164" />
+          <entry key="txt" value="205" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="164" />
+          <entry key="CMakeLists.txt" value="205" />
           <entry key="ObjectiveC" value="6" />
         </counts>
       </usages-collector>
@@ -188,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/main.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -196,14 +165,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsc-helper/jscHelper.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="306">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/folly-json/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -212,7 +190,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -249,12 +227,13 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/jni-helper/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/jsc-helper/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/folly-json/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="681" />
-    <option name="y" value="24" />
+    <option name="x" value="958" />
+    <option name="y" value="123" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -297,12 +276,8 @@
             </path>
             <path>
               <item name="ccSmaple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ccSmaple" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
+              <item name="ccSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="folly-json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,8 +287,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../sample-prj/folly" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/folly-json" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -368,12 +348,12 @@
       <workItem from="1532770106108" duration="1254000" />
       <workItem from="1532771994955" duration="9722000" />
       <workItem from="1532918746940" duration="5366000" />
-      <workItem from="1532930509462" duration="8766000" />
+      <workItem from="1532930509462" duration="10941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25108000" />
+    <option name="totallyTimeSpent" value="27283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,14 +366,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21497326" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21497326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947367" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2031579" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.19894737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32842106" />
@@ -584,14 +565,14 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -600,11 +581,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsc-helper/jscHelper.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="306">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="e#39#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folly-json/json.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folly-json/String.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folly-json/Unicode.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folly-json/json.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" selection-start-line="45" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folly-json/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
         </state>
       </provider>
     </entry>
