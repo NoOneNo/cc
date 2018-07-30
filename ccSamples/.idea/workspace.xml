@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
-    <generated>
-      <config projectName="jni" targetName="jni" />
-      <config projectName="jni" targetName="onload" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -12,7 +9,44 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a08f00e-b3d0-406d-b3cd-161b4e3648e9" name="Default Changelist" comment="" />
+    <list default="true" id="7a08f00e-b3d0-406d-b3cd-161b4e3648e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jsc-helper/jscHelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jni.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/libraries/KotlinJavaScript.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/libraries/KotlinJavaScript.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/java/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/ktjs/ktjs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/ktjs/ktjs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/ktjs/src/jsm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/java/ktjs/src/jsm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/ktjs/src/jsmain.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/ktjs/src/jsmain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/kotlin-stdlib-js-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java/lib/kotlin-stdlib-js-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lib/kotlin-stdlib-js.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java/lib/kotlin-stdlib-js.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/java/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/java/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/java/Hello.h" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/java/Hello.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/java/META-INF/java.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/java/META-INF/java.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/java/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/java/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/jsmain.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/ktjs/jsmain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/ktjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/ktjs/ktjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/ktjs.meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/ktjs/ktjs.meta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/ktjs/root-package.kjsm" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/ktjs/ktjs/root-package.kjsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/lib/kotlin.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/ktjs/lib/kotlin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/ktjs/lib/kotlin.meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/out/production/ktjs/lib/kotlin.meta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/jsc-helper/jscHelper.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +54,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
     <session id="604138624">
       <usages-collector id="statistics.lifecycle.project">
@@ -67,28 +100,70 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-804479123">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cc" value="24" />
+          <entry key="cpp" value="4" />
+          <entry key="txt" value="106" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="106" />
+          <entry key="ObjectiveC" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cc" value="1" />
+          <entry key="cpp" value="1" />
+          <entry key="h" value="3" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="465">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsc-helper/jscHelper.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#39#61#0" expanded="true" />
+                <element signature="e#108#142#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/jsc-helper/jscHelper.h">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -96,28 +171,46 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>JNI_VERSION</find>
+      <find>LINK_DIR</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/jsc-helper/jscHelper.cpp" />
+        <option value="$PROJECT_DIR$/main.cc" />
         <option value="$PROJECT_DIR$/main.cc" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
-    <option name="y" value="59" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="681" />
+    <option name="y" value="24" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jni" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jni" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -135,17 +228,6 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="cmake-build-debug" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="CMakeFiles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jni" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.jni">
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -204,11 +286,12 @@
       <updated>1532770103579</updated>
       <workItem from="1532770106108" duration="1254000" />
       <workItem from="1532771994955" duration="9722000" />
+      <workItem from="1532918746940" duration="5366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10976000" />
+    <option name="totallyTimeSpent" value="16342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,25 +303,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21001221" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21229947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20408164" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2031579" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3010204" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22544643" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22526316" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32857144" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.32842106" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,13 +363,7 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/jni.cbp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iostream">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iostream" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/jni.dir/build.make">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -302,32 +378,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/AudioToolbox.framework/Headers/AUAudioUnit.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Library/Developer/CommandLineTools/usr/include/FlexLexer.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///System/Library/Frameworks/JavaVM.framework/Headers/jni_md.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <element signature="e#394#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/cassert">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#422#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///System/Library/Frameworks/AudioToolbox.framework/Headers/AUAudioUnit.h" />
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/FlexLexer.h" />
+    <entry file="file:///System/Library/Frameworks/JavaVM.framework/Headers/jni_md.h" />
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/cassert" />
     <entry file="file:///usr/include/assert.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -335,44 +389,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/JavaVM.framework/Headers/jni.h">
+    <entry file="file:///System/Library/Frameworks/JavaVM.framework/Headers/jni.h" />
+    <entry file="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers/JSBase.h" />
+    <entry file="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers/JavaScriptCore.h" />
+    <entry file="file://$PROJECT_DIR$/../../../sample-prj/JSC-Standalone/Ubuntu/include/JSContextRef.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="1951" column="34" lean-forward="true" selection-start-line="1951" selection-start-column="34" selection-end-line="1951" selection-end-column="34" />
+        <state relative-caret-position="435">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
-            <element signature="e#4227#4276#0" expanded="true" />
+            <element signature="e#1480#1500#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSContextRef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="365">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers/JSBase.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/jsc-helper/jscHelper.h">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers/JavaScriptCore.h">
+    <entry file="file://$PROJECT_DIR$/jsc-helper/jscHelper.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+            <element signature="e#108#142#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
