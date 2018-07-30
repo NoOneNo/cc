@@ -15,34 +15,49 @@
 
 using namespace std;
 
+JSValueRef JSEvaluateScript(JSContextRef ctx, const char* jsScript);
+
+
 JSValueRef ObjectCallAsFunctionCallback(JSContextRef ctx, JSObjectRef function, JSObjectRef thisObject, size_t argumentCount, const JSValueRef arguments[], JSValueRef* exception) {
     cout << "Hello js core" << endl;
     return JSValueMakeUndefined(ctx);
 }
 
+void addLogFunc(JSContextRef ctx) {
+    JSStringRef logFunctionName = JSStringCreateWithUTF8CString("log");
+    JSObjectRef functionObject = JSObjectMakeFunctionWithCallback(ctx, logFunctionName, &ObjectCallAsFunctionCallback);
+
+    JSObjectRef globalObject = JSContextGetGlobalObject(ctx);
+    JSObjectSetProperty(ctx, globalObject, logFunctionName, functionObject, kJSPropertyAttributeNone, nullptr);
+
+    JSStringRelease(logFunctionName);
+}
+
 // https://developer.apple.com/documentation/javascriptcore
 // https://karhm.com/JavaScriptCore_C_API/
+// https://nshipster.com/javascriptcore/
 int exeJs() {
 
     JSContextGroupRef contextGroup = JSContextGroupCreate();
     JSGlobalContextRef globalContext = JSGlobalContextCreateInGroup(contextGroup, nullptr);
-    JSObjectRef globalObject = JSContextGetGlobalObject(globalContext);
 
-    JSStringRef logFunctionName = JSStringCreateWithUTF8CString("log");
-    JSObjectRef functionObject = JSObjectMakeFunctionWithCallback(globalContext, logFunctionName, &ObjectCallAsFunctionCallback);
+    addLogFunc(globalContext);
 
-    JSObjectSetProperty(globalContext, globalObject, logFunctionName, functionObject, kJSPropertyAttributeNone, nullptr);
+    JSEvaluateScript(globalContext, "process.stdout.write(\"hello: \");");
+    JSEvaluateScript(globalContext, "log();");
 
-    JSStringRef logCallStatement = JSStringCreateWithUTF8CString("log()");
-
-    JSEvaluateScript(globalContext, logCallStatement, nullptr, nullptr, 1,nullptr);
 
     /* memory management code to prevent memory leaks */
-
     JSGlobalContextRelease(globalContext);
     JSContextGroupRelease(contextGroup);
-    JSStringRelease(logFunctionName);
-    JSStringRelease(logCallStatement);
 
     return 0;
+}
+
+JSValueRef JSEvaluateScript(JSContextRef ctx, const char* jsScript){
+    JSStringRef script = JSStringCreateWithUTF8CString(jsScript);
+    JSValueRef jsValue = JSEvaluateScript(ctx, script, nullptr, nullptr, 1, nullptr);
+
+    JSStringRelease(script);
+    return jsValue;
 }
