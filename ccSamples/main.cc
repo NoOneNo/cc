@@ -11,7 +11,3 @@ int main() {
     return 0;
 }
 
-// js bright
-
-//  ccSamples
-
