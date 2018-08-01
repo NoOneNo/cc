@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/googletest.git"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/googletest.git.rule"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/googletest.git-complete.rule"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-install.rule"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-mkdir.rule"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-download.rule"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-update.rule"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-patch.rule"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-configure.rule"
+		},
+		{
+			"file" : "/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest.git"
+		],
+		"name" : "googletest.git"
+	}
+}

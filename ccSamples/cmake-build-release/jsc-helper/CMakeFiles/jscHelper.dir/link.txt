@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjscHelper.a  CMakeFiles/jscHelper.dir/jscHelper.cpp.o
+/usr/bin/ranlib libjscHelper.a

@@ -1,0 +1,13 @@
+# Target labels
+ folly.git
+# Source files and their labels
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/folly.git
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/folly.git.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/folly.git-complete.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/folly.git-stamp/folly.git-install.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/folly.git-stamp/folly.git-mkdir.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/folly.git-stamp/folly.git-download.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/folly.git-stamp/folly.git-update.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/folly.git-stamp/folly.git-patch.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/folly.git-stamp/folly.git-configure.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/folly.git-stamp/folly.git-build.rule

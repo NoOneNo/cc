@@ -3,7 +3,6 @@
 #include "jsc-helper/jscHelper.h"
 
 
-
 int main() {
     std::cout << "Hello, World!" << std::endl;
 

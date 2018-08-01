@@ -1,29 +1,26 @@
 cmake_minimum_required(VERSION 3.12)
-project(ccSmaple)
 
 set(CMAKE_CXX_STANDARD 14)
 
-# CHECK ENV
-MESSAGE(STATUS "LINUX : ${LINUX}")
-MESSAGE(STATUS "APPLE : ${APPLE}")
-MESSAGE(STATUS "UNIX : ${UNIX}")
-MESSAGE(STATUS "CMAKE_SYSTEM_NAME : ${CMAKE_SYSTEM_NAME}")
-if (CMAKE_SYSTEM_NAME STREQUAL "Linux")
-    SET(LINUX 1)
-endif()
-MESSAGE(STATUS "LINUX : ${LINUX}")
+include(cmake-helper/ENV.cmake)
+include(cmake-helper/ExtProjectUtils.cmake)
+
+include(dep.cmake)
 
 
-set(MAC_SDKS /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks)
+include(main.cmake)
 
-add_subdirectory("${PROJECT_SOURCE_DIR}/jni-helper")
-add_subdirectory("${PROJECT_SOURCE_DIR}/jsc-helper")
+#-------------------
+# Test
+#-------------------
 
-add_executable(ccSmaple
-        main.cc
-        jsc-helper/jscHelper.h
-        jni-helper/jniHelper.h)
-
-target_link_libraries(ccSmaple jscHelper jniHelper)
+# Will download external CMakeable project from git repo, branch "master" and install it in $DEPS_ROOT
+# This also will create "googletest.git" target, which we'll use as dependency for our test project
+ExtProjectGit("https://github.com/google/googletest.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}")
 
 
+
+
+enable_testing()
+
+add_subdirectory("test-samples")

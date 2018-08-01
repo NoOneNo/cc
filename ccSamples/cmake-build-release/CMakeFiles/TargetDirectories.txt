@@ -1,0 +1,15 @@
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/test.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/ccSmaple.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/googletest.git.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/folly.git.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/glog.git.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/jsc-helper/CMakeFiles/edit_cache.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/jsc-helper/CMakeFiles/test.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/jsc-helper/CMakeFiles/rebuild_cache.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/jsc-helper/CMakeFiles/jscHelper.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/test-samples/CMakeFiles/rebuild_cache.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/test-samples/CMakeFiles/edit_cache.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/test-samples/CMakeFiles/test.dir
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/test-samples/CMakeFiles/testSample.dir

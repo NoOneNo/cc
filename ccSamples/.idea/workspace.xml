@@ -2,23 +2,32 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="ccSmaple" targetName="jniHelper" />
-      <config projectName="ccSmaple" targetName="jscHelper" />
-      <config projectName="ccSmaple" targetName="ccSmaple" />
+      <config projectName="Project" targetName="glog.git" />
+      <config projectName="Project" targetName="testSample" />
+      <config projectName="Project" targetName="jscHelper" />
+      <config projectName="Project" targetName="ccSmaple" />
+      <config projectName="Project" targetName="folly.git" />
+      <config projectName="Project" targetName="googletest.git" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a08f00e-b3d0-406d-b3cd-161b4e3648e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-helper/sample.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-helper/sample.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jni-helper/jniHelper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jni-helper/jniHelper.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/main.cc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/glog/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,40 +144,51 @@
           <entry key="Makefile" value="1" />
           <entry key="a" value="1" />
           <entry key="cbp" value="1" />
-          <entry key="cc" value="4" />
-          <entry key="cmake" value="4" />
-          <entry key="cpp" value="7" />
+          <entry key="cc" value="7" />
+          <entry key="cmake" value="17" />
+          <entry key="cpp" value="13" />
           <entry key="gradle" value="1" />
-          <entry key="h" value="5" />
+          <entry key="h" value="10" />
+          <entry key="in" value="2" />
           <entry key="includecache" value="1" />
           <entry key="internal" value="1" />
           <entry key="make" value="2" />
           <entry key="marks" value="1" />
           <entry key="o" value="1" />
-          <entry key="txt" value="18" />
+          <entry key="txt" value="40" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="2" />
-          <entry key="CMakeLists.txt" value="16" />
+          <entry key="CMakeLists.txt" value="51" />
           <entry key="Makefile" value="1" />
-          <entry key="ObjectiveC" value="16" />
+          <entry key="ObjectiveC" value="32" />
           <entry key="PLAIN_TEXT" value="13" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cc" value="2" />
-          <entry key="cpp" value="3" />
-          <entry key="h" value="1" />
-          <entry key="txt" value="278" />
+          <entry key="cc" value="19" />
+          <entry key="cmake" value="51" />
+          <entry key="cpp" value="9" />
+          <entry key="h" value="3" />
+          <entry key="txt" value="545" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="278" />
-          <entry key="ObjectiveC" value="6" />
+          <entry key="CMakeLists.txt" value="596" />
+          <entry key="ObjectiveC" value="31" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages">
+        <counts>
+          <entry key="Google Test" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -211,23 +231,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cc">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-helper/ExtProjectUtils.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/folly-json/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="300">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-samples/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -247,6 +291,17 @@
       <find>LINK_DIR</find>
       <find>UNIX</find>
       <find>CMAKE_SYSTEM_NAME</find>
+      <find>\</find>
+      <find>ac_cv_have_unistd_h</find>
+      <find>@</find>
+      <find>source_dir</find>
+      <find>MSVC_COMPILER_DEFS</find>
+      <find>CMakeSettings</find>
+      <find>Debug</find>
+      <find>GTEST_INCLUDE_DIRS</find>
+      <find>_name</find>
+      <find>tag</find>
+      <find>boost</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -256,23 +311,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/jni-helper/jniHelper.cpp" />
         <option value="$PROJECT_DIR$/jni-helper/dynamic.cmake" />
         <option value="$PROJECT_DIR$/jsc-helper/jscHelper.h" />
         <option value="$PROJECT_DIR$/folly-json/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/jni-helper/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/jsc-helper/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/jsc-helper/jscHelper.cpp" />
+        <option value="$PROJECT_DIR$/glog/config.h" />
+        <option value="$PROJECT_DIR$/glog/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test.cpp" />
+        <option value="$PROJECT_DIR$/test-samples/testSample.h" />
+        <option value="$PROJECT_DIR$/test-samples/testSample.cpp" />
         <option value="$PROJECT_DIR$/cmake-helper/sample.cmake" />
+        <option value="$PROJECT_DIR$/main.cc" />
+        <option value="$PROJECT_DIR$/main.cc" />
+        <option value="$PROJECT_DIR$/jni-helper/jniHelper.cpp" />
+        <option value="$PROJECT_DIR$/ext/gtest/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/cmake-helper/ExtProjectUtils.cmake" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/cmake-helper/ENV.cmake" />
+        <option value="$PROJECT_DIR$/gtest.cmake" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cc" />
-        <option value="$PROJECT_DIR$/main.cc" />
+        <option value="$PROJECT_DIR$/test-samples/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cmake" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="247" />
-    <option name="y" value="45" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="212" />
+    <option name="y" value="188" />
     <option name="width" value="1400" />
     <option name="height" value="972" />
   </component>
@@ -288,13 +355,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="ccSmaple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ccSamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccSamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ccSmaple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ccSamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="ccSamples" type="462c0819:PsiDirectoryNode" />
-              <item name="folly-json" type="462c0819:PsiDirectoryNode" />
+              <item name="kt-samples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +371,7 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="ccSmaple" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ccSamples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
@@ -315,11 +382,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../glog" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/glog" />
       <recent name="$PROJECT_DIR$/folly-json" />
     </key>
   </component>
@@ -335,33 +403,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ccSmaple">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="cpp_sorter_test.null_term_str_sort" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="ccSmaple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="ccSmaple" TEST_CLASS="cpp_sorter_test" TEST_METHOD="null_term_str_sort" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ccSmaple" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ccSmaple" TARGET_NAME="ccSmaple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ccSmaple" RUN_TARGET_NAME="ccSmaple">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="ccSmaple" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jniHelper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ccSmaple" TARGET_NAME="jniHelper" CONFIG_NAME="Debug">
+    <configuration name="folly.git" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="folly.git" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jscHelper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ccSmaple" TARGET_NAME="jscHelper" CONFIG_NAME="Debug">
+    <configuration name="glog.git" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="glog.git" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="googletest.git" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="googletest.git" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jscHelper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="jscHelper" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSample" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="testSample" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="testSample">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.ccSmaple" />
-      <item itemvalue="Application.jniHelper" />
+      <item itemvalue="Application.folly.git" />
+      <item itemvalue="Application.glog.git" />
+      <item itemvalue="Application.googletest.git" />
       <item itemvalue="Application.jscHelper" />
+      <item itemvalue="Application.testSample" />
+      <item itemvalue="Google Test.cpp_sorter_test.null_term_str_sort" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.cpp_sorter_test.null_term_str_sort" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -378,12 +469,26 @@
       <workItem from="1532918746940" duration="5366000" />
       <workItem from="1532930509462" duration="10941000" />
       <workItem from="1532955757025" duration="4271000" />
-      <workItem from="1533000881816" duration="3380000" />
+      <workItem from="1533000881816" duration="26355000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="cpp_sorter_test_null_term_str_sort - 2018.08.01 at 10h 07m 51s.xml">
+      <configuration name="cpp_sorter_test.null_term_str_sort" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="cpp_sorter_test_null_term_str_sort - 2018.08.01 at 10h 09m 01s.xml">
+      <configuration name="cpp_sorter_test.null_term_str_sort" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="cpp_sorter_test_null_term_str_sort - 2018.08.01 at 10h 09m 12s.xml">
+      <configuration name="cpp_sorter_test.null_term_str_sort" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="cpp_sorter_test_null_term_str_sort - 2018.08.01 at 10h 09m 35s.xml">
+      <configuration name="cpp_sorter_test.null_term_str_sort" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35061000" />
+    <option name="totallyTimeSpent" value="58036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,25 +500,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="45" width="1400" height="972" extended-state="0" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30296296" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925706" visible="true" weight="0.21871658" />
+      <window_info id="Structure" order="1" sideWeight="0.5007429" side_tool="true" weight="0.21871658" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947367" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20167065" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31789473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19894737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32842106" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.29236278" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.107368425" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.36836734" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3293556" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32947367" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.39976135" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.39894736" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -424,33 +529,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/jni.dir/cmake_clean.cmake" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/jni.dir/flags.make" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/jni.dir/link.txt" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/jni.dir/progress.make" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/jni.cbp" />
-    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iostream" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/jni.dir/build.make" />
-    <entry file="file:///System/Library/Frameworks/AudioToolbox.framework/Headers/AUAudioUnit.h" />
-    <entry file="file:///Library/Developer/CommandLineTools/usr/include/FlexLexer.h" />
-    <entry file="file:///System/Library/Frameworks/JavaVM.framework/Headers/jni_md.h" />
-    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/cassert" />
-    <entry file="file:///usr/include/assert.h" />
-    <entry file="file:///System/Library/Frameworks/JavaVM.framework/Headers/jni.h" />
-    <entry file="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers/JSBase.h" />
-    <entry file="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers/JavaScriptCore.h" />
-    <entry file="file://$USER_HOME$/sample-prj/JSC-Standalone/Ubuntu/include/JSContextRef.h" />
-    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSContextRef.h" />
-    <entry file="file://$PROJECT_DIR$/jni-helper/dynamic.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jni-helper/jniHelper.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/ccSmaple.cbp" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ccSmaple.dir/main.cc.o" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
@@ -475,47 +553,9 @@
     <entry file="file://$PROJECT_DIR$/folly-json/Unicode.cpp" />
     <entry file="file://$PROJECT_DIR$/folly-json/json.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers/JSBase.h" />
-    <entry file="file://$PROJECT_DIR$/jni-helper/jniHelper.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jni-helper/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsc-helper/jscHelper.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="e#39#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers/JSStringRef.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers/JSBase.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers/JSContextRef.h" />
-    <entry file="file://$PROJECT_DIR$/jsc-helper/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-helper/sample.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="44" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -530,30 +570,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/folly-json/folly.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glog/src/base/mutex.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="300">
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glog/src/glog/logging.h.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="27" />
+          <folding>
+            <element signature="e#1958#1978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glog/config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsc-helper/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsc-helper/jscHelper.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#38#55#0" expanded="true" />
+            <element signature="e#66#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-helper/sample.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-helper/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-samples/testSample.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni-helper/dynamic.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/jvm/java-1.8.0-openjdk-amd64/include/linux/jni_md.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni-helper/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni-helper/jniHelper.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-samples/testSample.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#215#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dep.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/folly-json/folly.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/linux/share/cmake-3.12/Modules/ExternalProject.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="965" selection-start-line="965" selection-end-line="965" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-helper/ENV.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/gtest/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-samples/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-helper/ExtProjectUtils.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/folly-json/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glog/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cmake">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="59" />
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>

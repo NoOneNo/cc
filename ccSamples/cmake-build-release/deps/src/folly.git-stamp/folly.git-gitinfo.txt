@@ -1,0 +1,3 @@
+repository='https://github.com/facebook/folly.git'
+module=''
+tag=''

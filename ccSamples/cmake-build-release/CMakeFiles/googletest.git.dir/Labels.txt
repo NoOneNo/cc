@@ -1,0 +1,13 @@
+# Target labels
+ googletest.git
+# Source files and their labels
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/googletest.git
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/googletest.git.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/googletest.git-complete.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-install.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-mkdir.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-download.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-update.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-patch.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-configure.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/googletest.git-stamp/googletest.git-build.rule

@@ -1,0 +1,13 @@
+# Target labels
+ glog.git
+# Source files and their labels
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/glog.git
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/glog.git.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/CMakeFiles/glog.git-complete.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/glog.git-stamp/glog.git-install.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/glog.git-stamp/glog.git-mkdir.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/glog.git-stamp/glog.git-download.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/glog.git-stamp/glog.git-update.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/glog.git-stamp/glog.git-patch.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/glog.git-stamp/glog.git-configure.rule
+/home/harry/priProjects/personal/cc/ccSamples/cmake-build-release/deps/src/glog.git-stamp/glog.git-build.rule
