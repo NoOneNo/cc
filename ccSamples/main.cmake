@@ -11,24 +11,24 @@ target_link_libraries(ccSmaple
 ExtProjectGit("https://github.com/google/glog.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}")
 add_dependencies(ccSmaple "glog.git")
 
-#ExternalProject_Add(boost
-#        GIT_REPOSITORY https://github.com/mirror/boost.git
-#        GIT_TAG master
-#
-#        CONFIGURE_COMMAND bash ${DEPS_ROOT}/boost/bootstrap.sh --with-libraries=date_time,thread,filesystem,system
-#        BUILD_COMMAND ${DEPS_ROOT}/boost/b2 -j10 cflags=-fPIC cxxflags=-fPIC cxxflags=-fvisibility=hidden cxxflags=-fvisibility-inlines-hidden cxxflags=-fexceptions cxxflags=-DBOOST_NO_RTTI
-##        BUILD_IN_SOURCE 1
-#
-#
-#        PREFIX "${destination}"
-#        INSTALL_DIR "${destination}"
-#        )
+
+#ExternalProject_Add(
+#        boost
+#        URL "https://sourceforge.net/projects/boost/files/boost/${boost_VERSION}/boost_${boost_VERSION_UNDERSCORE}.tar.bz2"
+#        INSTALL_COMMAND "" # Disable install step
+#        UPDATE_COMMAND "" # Doesn't change often
+#        CONFIGURE_COMMAND "${BASH_PATH}" "${CMAKE_CURRENT_SOURCE_DIR}/configureboost.sh" "${BOOST_DOWNLOAD_DIR}" "${BOOST_INSTALL_DIR}"
+#        BUILD_COMMAND "${BASH_PATH}" "${CMAKE_CURRENT_SOURCE_DIR}/buildboost.sh" "${BOOST_DOWNLOAD_DIR}" "${BOOST_LIB_DIR}"
+#        LOG_DOWNLOAD ON
+#        LOG_CONFIGURE ON
+#        LOG_BUILD ON
+#)
 
 
 
-ExtProjectGit("https://github.com/google/double-conversion.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}")
-add_dependencies(ccSmaple "double-conversion.git")
+#ExtProjectGit("https://github.com/google/double-conversion.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}")
+#add_dependencies(ccSmaple "double-conversion.git")
 
-ExtProjectGit("https://github.com/facebook/folly.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}")
-add_dependencies(ccSmaple "folly.git")
+#ExtProjectGit("https://github.com/facebook/folly.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}") #;-DBoost_DEBUG=ON
+#add_dependencies(ccSmaple "folly.git")
 

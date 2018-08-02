@@ -18,3 +18,7 @@ elseif(LINUX)
 endif()
 
 target_link_libraries(jscHelper ${jscso})
+
+
+
+

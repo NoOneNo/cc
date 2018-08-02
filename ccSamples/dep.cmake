@@ -1,5 +1,7 @@
 find_package(Threads REQUIRED)
 
+MESSAGE(STATUS "=============dep=================")
+
 if(CMAKE_COMPILER_IS_GNUCXX)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -ansi -Wno-deprecated")
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -ansi -Wno-deprecated")
@@ -22,3 +24,16 @@ get_filename_component(DEPS_ROOT "${PROJECT_BINARY_DIR}/deps" ABSOLUTE)
 include_directories("${DEPS_ROOT}/include")
 link_directories("${DEPS_ROOT}/lib")
 link_directories("${DEPS_ROOT}/lib64")
+
+if(LINUX)
+    include_directories("/usr/local/include")
+    link_directories("/usr/local/lib")
+endif()
+
+
+get_property(dirs DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIRECTORIES)
+foreach(dir ${dirs})
+    message(STATUS "dir='${dir}'")
+endforeach()
+
+MESSAGE(STATUS "=============dep end=================")
