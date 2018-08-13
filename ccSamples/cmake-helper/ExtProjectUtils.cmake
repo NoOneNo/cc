@@ -52,3 +52,7 @@ function(ExtProjectGit repourl tag destination)
             PREFIX "${destination}"
             INSTALL_DIR "${destination}")
 endfunction()
+
+# Will download external CMakeable project from git repo, branch "master" and install it in $DEPS_ROOT
+# This also will create "googletest.git" target, which we'll use as dependency for our test project
+#ExtProjectGit("https://github.com/google/googletest.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}")

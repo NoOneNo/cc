@@ -1,4 +1,4 @@
-
+#enable_testing()
 
 add_executable(testSample testSample.cpp)
 

@@ -1,7 +1,5 @@
 find_package(Threads REQUIRED)
 
-MESSAGE(STATUS "=============dep=================")
-
 if(CMAKE_COMPILER_IS_GNUCXX)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -ansi -Wno-deprecated")
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -ansi -Wno-deprecated")
@@ -28,12 +26,15 @@ link_directories("${DEPS_ROOT}/lib64")
 if(LINUX)
     include_directories("/usr/local/include")
     link_directories("/usr/local/lib")
+
+    include_directories("/usr/include")
+    link_directories("/usr/lib")
 endif()
 
 
-get_property(dirs DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIRECTORIES)
+get_property(dirs DIRECTORY .. PROPERTY INCLUDE_DIRECTORIES)
 foreach(dir ${dirs})
     message(STATUS "dir='${dir}'")
 endforeach()
 
-MESSAGE(STATUS "=============dep end=================")
+MESSAGE(STATUS " ")

@@ -4,7 +4,7 @@ if (APPLE)
     set(INC_DIR
             ${INC_DIR}
             ${MAC_SDKS}/JavaVM.framework/Headers)
-elseif(LINUX)
+elseif(UBUNTU)
     set(JAVA_HOME /usr/lib/jvm/java-1.8.0-openjdk-amd64)
     set(INC_DIR
             ${INC_DIR}

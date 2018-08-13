@@ -49,3 +49,5 @@
 #LOCAL_STATIC_LIBRARIES := libboost
 
 
+#ExtProjectGit("https://github.com/facebook/folly.git" "master" ${DEPS_ROOT} CMAKE_ARGS "${_OPT_CMAKE_ARGS}") #;-DBoost_DEBUG=ON
+#add_dependencies(ccSmaple "folly.git")

@@ -1,5 +1,5 @@
 
-if(LINUX)
+if(UBUNTU)
     set(INC_DIR
             ${INC_DIR}
             /usr/include/webkitgtk-1.0) # sudo apt-get install libjavascriptcoregtk-1.0-dev
@@ -13,7 +13,7 @@ ADD_LIBRARY (jscHelper
 
 if (APPLE)
     set(jscso ${MAC_SDKS}/JavaScriptCore.framework/JavaScriptCore.tbd) # install xcode
-elseif(LINUX)
+elseif(UBUNTU)
     set(jscso /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-1.0.so) # sudo apt-get install libjavascriptcoregtk-1.0-dev
 endif()
 
